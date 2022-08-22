@@ -1,4 +1,5 @@
 body{
+    margin: 0%;
     font-family: 'Montserrat', sans-serif;
 }
 h1{
@@ -18,9 +19,18 @@ h1{
 }
 .top-banner{
     background-image: url("images/top-banner.png");
-
+    
     background-repeat: no-repeat;
 }
 section{
     height: 500px;
+}
+
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 122, 195),rgb(255, 71, 141) );
+    background-color: mediumvioletred;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
 }
