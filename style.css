@@ -51,6 +51,7 @@ section{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
     height: 60%;
+    background-color: white;
 }
 .third-part{
     background-image: url("images/exp-bg.png");
@@ -67,4 +68,8 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(180deg,mediumvioletred,rgb(253, 117, 139));
     border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
